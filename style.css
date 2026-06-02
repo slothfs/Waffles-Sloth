@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff3d6;
+    margin: 0;
+}
+
+h1{
+    color: #333;
+    font-size: 250px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+p{
+    font-size: 50px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+a{
+    font-size: 35px;
+}
