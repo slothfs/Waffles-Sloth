@@ -3,6 +3,7 @@
     <head>
         <title>Sloth Waffle Magic</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
 
     <body>
@@ -44,13 +45,13 @@
     <li>Some waffles are sweet and some are savory.</li>
 </ul>
 
-<button>Add Fact</button>
+<button onclick="addFact()">Add Fact</button>
 
 <hr>
 
 <h2>Pick Your Favorite Topping</h2>
 
-<input type="text" placeholder="Type a topping">
+<input type="text" placeholder="Type a topping" oninput="handleToppingInput(this)">
 
 <p id="liveOutput"></p>
 
@@ -58,7 +59,7 @@
 
 <h2>Waffle Rating</h2>
 
-<button>Is Waffle Good?</button>
+<button onclick="waffleCheck()">Is Waffle Good?</button>
 
 <p id="result"></p>
 

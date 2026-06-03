@@ -3,6 +3,7 @@
     <head>
         <title>about waffles</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
 
     <body>
@@ -36,7 +37,7 @@
         <br>
         <br>
 
-        <button>Hide Image</button>
+        <button onclick="hideShow()">Hide Image</button>
 
         <hr>
 
@@ -44,7 +45,7 @@
 
         <p>Try changing the look of the page.</p>
 
-        <button>Change Theme</button>
+        <button onclick="toggleTheme()">Change Theme</button>
 
         <hr>
 
@@ -52,13 +53,11 @@
 
         <p>Do you think waffles are a good snack?</p>
 
-        <button>Check Answer</button>
-
-        <p id="result"></p>
-
-        <hr>
+<button onclick="waffleCheck()">Check Answer</button>
 
         <a href="index.html">back</a>
+
+         <script src="script.js"></script>
 
     </body>
 </html>
