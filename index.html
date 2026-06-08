@@ -14,7 +14,7 @@
         <p> short introduction to Waffles</p>
         <hr>
 
-        <button onclick="sayHello()"> get greeted by sloth</button>
+        <button onclick="sayHello(); delayedWelcome();"> get greeted by sloth</button>
         <p id="msg"></p>
 
         <nav>
@@ -46,6 +46,16 @@
 </ul>
 
 <button onclick="addFact()">Add Fact</button>
+
+<hr>
+
+<h3>Rotating Fun Facts</h3>
+<p id="rotatingFacts" style="color: #8B4513; font-weight: bold;">Loading facts...</p>
+
+<hr>
+
+<h3>Latest Waffle Fact from API</h3>
+<p id="apiResults" style="color: #FF6347;">Loading...</p>
 
 <hr>
 
